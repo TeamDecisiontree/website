@@ -7,9 +7,9 @@ export default function Footer() {
                 © 2025 Team Decisiontree
             </p>
             <span className="mx-2 md:block hidden">|</span>
-            <a className="text-blue-600 hover:text-blue-800 dark:text-blue-300" href="mailto:contact@decisiontree.se" target="_blank">contact@decisiontree.se</a>
+            <a className="text-blue-200 hover:text-blue-600 dark:text-blue-300" href="mailto:contact@decisiontree.se" target="_blank">contact@decisiontree.se</a>
             <span className="mx-2 md:block hidden">|</span>
-            <a className="text-blue-600 hover:text-blue-800 dark:text-blue-300" href="https://github.com/TeamDecisiontree">Github</a>
+            <a className="text-blue-200 hover:text-blue-600 dark:text-blue-300" href="https://github.com/TeamDecisiontree">Github</a>
         </div>
     )
 }

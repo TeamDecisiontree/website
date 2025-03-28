@@ -13,7 +13,7 @@ export default function Home() {
         Will you be a fiery attacker, preferring offense over defense? Will you prioritize defenses, bulldozing your way through any attack? Or will you focus debilitating your enemies, weakening them until they pose no threat at all? You decide!
       </p>
       <p className="text-lg w-1/2 mt-4 text-center">
-        Check out our work on our <a className="text-blue-600 hover:text-blue-800 dark:text-blue-300" href="https://github.com/TeamDecisiontree">Github!</a>
+        Check out our work on our <a className="text-blue-500 hover:text-blue-700 dark:text-blue-300" href="https://github.com/TeamDecisiontree">Github!</a>
       </p>
     </div>
   );
