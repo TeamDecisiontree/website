@@ -22,7 +22,7 @@ export default function Team() {
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
                         <h2 className="text-xl md:text-4lg mt-6">Malte Berg</h2>
-                        <p className="text-lg">SCRUM Master</p>
+                        <p className="text-lg">Scrum Master</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:malte@decisiontree.se">malte@decisiontree.se</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
