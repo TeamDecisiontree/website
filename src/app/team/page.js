@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Team() {
     return (
         <div className="bg-white dark:bg-gray-600 min-h-screen">
-            <div className="flex flex-col items-center justify-center min-h-screen gap-4 pt-10 mb-10">
+            <div className="flex flex-col items-center justify-center min-h-screen gap-4 pt-10 pb-10">
                 <h1 className="text-6xl">Meet our team</h1>
                 <div className="grid grid-cols-2 grid-rows-4 gap-25 mt-6 px-10 max-w-screen">
                     <div className="grid-item flex flex-col text-center items-center mt-6">
