@@ -8,6 +8,18 @@ export default function Team() {
                 <h1 className="md:text-6xl text-4xl">Meet our team</h1>
                 <div className="grid md:grid-cols-2 md:grid-rows-4 grid-cols-1 grid-rows-8 md:gap-40 gap-10 mt-6 px-10 max-w-screen">
                     <div className="grid-item flex flex-col text-center items-center mt-6">
+                        <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
+                        <h2 className="text-xl md:text-4xl mt-6">Albert Falck</h2>
+                        <p className="text-lg">Product Owner</p>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:albert@decisiontree.se">albert@decisiontree.se</a>
+                    </div>
+                    <div className="grid-item flex flex-col text-center items-center mt-6">
+                        <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
+                        <h2 className="text-xl md:text-4xl mt-6">Malte Berg</h2>
+                        <p className="text-lg">Scrum Master</p>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:malte@decisiontree.se">malte@decisiontree.se</a>
+                    </div>
+                    <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} alt="Placeholder" src="/profile.png" />
                         <h2 className="text-xl md:text-4xl mt-6">Isac Almqvist</h2>
                         <p className="text-lg">Developer</p>
@@ -21,12 +33,6 @@ export default function Team() {
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
-                        <h2 className="text-xl md:text-4xl mt-6">Malte Berg</h2>
-                        <p className="text-lg">Scrum Master</p>
-                        <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:malte@decisiontree.se">malte@decisiontree.se</a>
-                    </div>
-                    <div className="grid-item flex flex-col text-center items-center mt-6">
-                        <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
                         <h2 className="text-xl md:text-4xl mt-6">Zhengan Chen</h2>
                         <p className="text-lg">Developer</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:chen@decisiontree.se">chen@decisiontree.se</a>
@@ -36,12 +42,6 @@ export default function Team() {
                         <h2 className="text-xl md:text-4xl mt-6">Mostafa Faik</h2>
                         <p className="text-lg">Developer</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:mostafa@decisiontree.se">mostafa@decisiontree.se</a>
-                    </div>
-                    <div className="grid-item flex flex-col text-center items-center mt-6">
-                        <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
-                        <h2 className="text-xl md:text-4xl mt-6">Albert Falck</h2>
-                        <p className="text-lg">Product Owner</p>
-                        <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:albert@decisiontree.se">albert@decisiontree.se</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
