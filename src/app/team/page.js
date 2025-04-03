@@ -12,48 +12,56 @@ export default function Team() {
                         <h2 className="text-xl md:text-4xl mt-6">Albert Falck</h2>
                         <p className="text-lg">Product Owner</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:albert@decisiontree.se">albert@decisiontree.se</a>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" href="https://github.com/albertFalck">github.com/albertFalck</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
                         <h2 className="text-xl md:text-4xl mt-6">Malte Berg</h2>
                         <p className="text-lg">Scrum Master</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:malte@decisiontree.se">malte@decisiontree.se</a>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" href="https://github.com/malte-berg">github.com/malte-berg</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} alt="Placeholder" src="/profile.png" />
                         <h2 className="text-xl md:text-4xl mt-6">Isac Almqvist</h2>
                         <p className="text-lg">Developer</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:isac@decisiontree.se">isac@decisiontree.se</a>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" href="https://github.com/IsacAlmqvist">github.com/IsacAlmqvist</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
                         <h2 className="text-xl md:text-4xl mt-6">Lukas Andersson</h2>
                         <p className="text-lg">Developer</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:lukas@decisiontree.se">lukas@decisiontree.se</a>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" href="https://github.com/LukeyBit">github.com/LukeyBit</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
                         <h2 className="text-xl md:text-4xl mt-6">Zhengan Chen</h2>
                         <p className="text-lg">Developer</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:chen@decisiontree.se">chen@decisiontree.se</a>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" href="https://github.com/CzAnOoO">github.com/CzAnOoO</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
                         <h2 className="text-xl md:text-4xl mt-6">Mostafa Faik</h2>
                         <p className="text-lg">Developer</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:mostafa@decisiontree.se">mostafa@decisiontree.se</a>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" href="https://github.com/MiTO-X2">github.com/MiTO-X2</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
                         <h2 className="text-xl md:text-4xl mt-6">Arvin Mardukh</h2>
                         <p className="text-lg">Developer</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:arvin@decisiontree.se">arvin@decisiontree.se</a>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" href="https://github.com/Arv1nnn">github.com/Arv1nnn</a>
                     </div>
                     <div className="grid-item flex flex-col text-center items-center mt-6">
                         <Image className="filter dark:invert" width={150} height={150} src="/profile.png" alt="Placeholder" />
                         <h2 className="text-xl md:text-4xl mt-6">Viktor Sandström</h2>
                         <p className="text-lg">Developer</p>
                         <a className="text-lg hover:text-blue-700 text-blue-500" target="_blank" href="mailto:viktor@decisiontree.se">viktor@decisiontree.se</a>
+                        <a className="text-lg hover:text-blue-700 text-blue-500" href="https://github.com/visand-kth">github.com/visand-kth</a>
                     </div>
                 </div>
                 <div className="flex flex-col items-center text-center gap-4 mt-20 mb-10">
