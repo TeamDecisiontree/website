@@ -36,7 +36,6 @@ export default function Navbar() {
     return (
         <nav className="bg-gray-800 text-white relative">
             <div className="md:p-6 p-2 flex drop-shadow-2xl flex-row items-center text-center">
-
             <h1 className="lg:text-4xl text-xl ml-1">Team Decisiontree</h1>
             <div className="hidden md:flex justify-items-end space-x-4 lg:text-2xl text-md mx-auto flex-row justify-center items-center text-center lg:mr-2 lg:gap-2">
                 <Link href="/" className="hover:text-blue-400">Home</Link>
