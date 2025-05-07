@@ -26,7 +26,7 @@ export default function Expo() {
             <div className="flex flex-col items-center min-h-screen pt-10 gap-4 pb-10">
                 <h1 className="md:text-6xl text-4xl">Expo</h1>
                 <p className="text-lg md:w-1/2 w-5/6 text-justify">
-                    The Expo is a showcase of our work and progress during the project. It includes a presentation of our game, Ynnos the Ekamer, and a demonstration of its features. It takes place on the 16th of May 2025, and we will be presenting our game to the public. The Expo is an opportunity for us to share our work with others and receive feedback on our project. It is also a chance for you to test our game, meet the team and ask any questions you may have!
+                    The Expo is a showcase of our work and progress during the project. It includes a presentation of our game, Ynnos the Ekamer, and a demonstration of its features. It takes place on the 16th of May 2025 at KTH Kista campus, Kistagången 16, where we will be presenting our game to the public between 10:30-15:30. The Expo is an opportunity for us to share our work with others and receive feedback on our project. It is also a chance for you to test our game, meet the team and ask any questions you may have!
                     <br />
                     <br />
                     If you are unable to attend the Expo in person, we will be available on Zoom during the event! Join the meeting using on <a href="https://kth-se.zoom.us/j/68783306169" target="_blank" className="text-blue-500 hover:text-blue-700 dark:text-blue-300">Zoom here!</a>
@@ -34,7 +34,7 @@ export default function Expo() {
                     <br />
                     We are proud to present our game and hope you enjoy it!
                 </p>
-                <p className="text-lg md:w-1/2 w-5/6 text-justify">
+                <p className="text-lg md:w-1/2 w-5/6">
                     If you want to know more or have any questions, do not hesitate to email us at <a className="text-blue-500 hover:text-blue-700 dark:text-blue-300" href="mailto:contact@decisiontree.se">contact@decisiontree.se</a>.
                 </p>
                 <div className="p-6 w-full md:w-1/2">
