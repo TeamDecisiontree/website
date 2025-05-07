@@ -16,23 +16,19 @@ export default function Home() {
       <p className="text-lg w-1/2 mt-4 text-center">
         Check out our work on our <a className="text-blue-500 hover:text-blue-700 dark:text-blue-300" href="https://github.com/TeamDecisiontree">GitHub!</a>
       </p>
-      <div className="flex flex-col items-center justify-center mt-6">
-
-
+      <div className="flex flex-col items-center justify-center mt-6 mb-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div>
-            <Image className="h-auto max-w-full rounded-lg" width={400} height={0} src="combat.png" alt="The in-game combat"/>
+            <Image className="h-auto max-w-full rounded-lg" width={400} height={0} src="combat.png" alt="The in-game combat" />
           </div>
           <div>
-            <Image className="h-auto max-w-full rounded-lg" width={400} height={0} src="shop.png" alt="The in-game shop"/>
+            <Image className="h-auto max-w-full rounded-lg" width={400} height={0} src="shop.png" alt="The in-game shop" />
           </div>
           <div>
-            <Image className="h-auto max-w-full rounded-lg" width={400} height={0} src="inventory.png" alt="The in-game inventory"/>
+            <Image className="h-auto max-w-full rounded-lg" width={400} height={0} src="inventory.png" alt="The in-game inventory" />
           </div>
         </div>
       </div>
-
-
     </div>
   );
 }
