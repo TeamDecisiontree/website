@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Link from "next/link";
 
 
 export default function Expo() {
@@ -34,6 +35,10 @@ export default function Expo() {
                     <br />
                     We are proud to present our game and hope you enjoy it!
                 </p>
+                <div className="flex flex-col items-center justify-center mt-6 mb-6 w-full md:w-1/2">
+                    <Link className="text-lg w-fit p-4 mt-4 text-center rounded-2xl bg-blue-500 dark:blue-300 hover:bg-blue-700"
+                        href="/" >Read more!</Link>
+                </div>
                 <p className="text-lg md:w-1/2 w-5/6">
                     If you want to know more or have any questions, do not hesitate to email us at <a className="text-blue-500 hover:text-blue-700 dark:text-blue-300" href="mailto:contact@decisiontree.se">contact@decisiontree.se</a>.
                 </p>
@@ -46,6 +51,6 @@ export default function Expo() {
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
