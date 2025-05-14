@@ -30,12 +30,12 @@ export default function Expo() {
                     The Expo is a showcase of our work and progress during the project. It includes a presentation of our game, Ynnos the Ekamer, and a demonstration of its features. It takes place on the 16th of May 2025 at KTH Kista campus, Kistagången 16, where we will be presenting our game to the public between 10:30-15:30. The Expo is an opportunity for us to share our work with others and receive feedback on our project. It is also a chance for you to test our game, meet the team and ask any questions you may have!
                     <br />
                     <br />
-                    If you are unable to attend the Expo in person, we will be available on Zoom during the event! Join the meeting using on <a href="https://kth-se.zoom.us/j/68783306169" target="_blank" className="text-blue-500 hover:text-blue-700 dark:text-blue-300">Zoom here!</a>
+                    If you are unable to attend the Expo in person, we will be available on Zoom during the event! Join the meeting using the Meeting ID: 687 8330 6169, or join with the link to <a href="https://kth-se.zoom.us/j/68783306169" target="_blank" className="text-blue-500 hover:text-blue-700 dark:text-blue-300">Zoom here!</a>
                     <br />
                     <br />
                     We are proud to present our game and hope you enjoy it!
                 </p>
-                <div className="flex flex-col items-center justify-center mt-6 mb-6 w-full md:w-1/2">
+                <div className="flex flex-col items-center justify-center mt-2 mb-2 w-full md:w-1/2">
                     <Link className="text-lg w-fit p-4 mt-4 text-center rounded-2xl bg-blue-500 dark:blue-300 hover:bg-blue-700"
                         href="/" >Read more!</Link>
                 </div>
