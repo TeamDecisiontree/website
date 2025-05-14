@@ -1,31 +1,74 @@
-import Image from 'next/image'
+import Sprint from './sprint'
 
 export default function Sprints() {
     return (
-        <div className="min-h-screen">
-            <div className="flex flex-col items-center justify-center min-h-screen gap-4 pt-10 pb-10">
+        <div className="min-h-screen flex flex-col items-center">
+            <div className="flex flex-col items-center justify-center min-h-screen gap-4 pt-10 pb-10 md:max-w-3/4">
                 <h1 className="md:text-6xl text-4xl">Sprints</h1>
-                <h2 className="md:text-4xl text-2xl pt-20">Sprint 1</h2>
-                <div className="grid md:grid-rows:1 md:grid-cols-3 grid-rows-2 grid-cols-1 md:gap-40 gap-10 mt-6 px-10 max-w-screen">
-                    <div className="grid-item flex flex-col mt-6 items-center justify-center">
-                        <Image width={400} height={200} src="/simple_combat.gif" alt="Simple Combat GIF" />
-                        <Image width={400} height={200} src="/stats.gif" alt="Stats Screen GIF" />
-                    </div>
-                    <div className='grid-item flex flex-col mt-6 text-justify col-span-2'>
-                        <h3 className='text-3xl text-center font-semibold italic'>Sprint Goal: Implement combat and main menu</h3>
-                        <p className='text-2xl'>
-                            The goal for sprint 1 was to implement the combat system as well as the main menu. 
-                            This goal was reached. <br/><br/> In this sprint we managed to accomplish:
-                        </p>
-                        <ul className='text-2xl list-disc list-inside'>
-                            <li>Combat system</li>
-                            <li>Inventory</li>
-                            <li>Stats</li>
-                            <li>Skill tree with 3 implemented abilities</li>
-                            <li>Some graphics</li>
-                        </ul>
-                    </div>
-                </div>
+                <Sprint
+                    sprintNr={1}
+                    images={[
+                        { src: "/sprint1_1.gif", alt: "Stats screen GIF" },
+                        { src: "/sprint1_2.gif", alt: "Simple combat GIF" }
+                    ]}
+                    goal="Implement combat and main menu"
+                    desc={
+                        "The goal for sprint 1 was to implement the combat system as well as the main menu. This goal was reached."
+                    }
+                    listHeader={
+                        "In this sprint we managed to accomplish:"
+                    }
+                    list={[
+                        "Combat system",
+                        "Inventory",
+                        "Stats",
+                        "Skill tree with 3 implemented abilities",
+                        "Some graphics"
+                    ]}
+                />
+                <Sprint
+                    sprintNr={2}
+                    images={[
+                        { src: "/sprint2_1.png", alt: "Sprint 2 image 1" },
+                        { src: "/sprint2_2.png", alt: "Sprint 2 image 2" }
+                    ]}
+                    goal="Implement ability system and enemy AI"
+                    desc={
+                        "The goal for sprint 2 was to implement the ability system and enemy AI. This goal was reached."
+                    }
+                    listHeader={
+                        "In this sprint we managed to accomplish:"
+                    }
+                    list={[
+                        "Abilities",
+                        "Skill tree with 4 implemented abilities",
+                        "Enemy AI",
+                        "Some graphics and animations"
+                    ]}
+                />
+                <Sprint
+                    sprintNr={3}
+                    images={[
+                        { src: "/sprint3_1.png", alt: "Sprint 3 image 1" },
+                        { src: "/sprint3_2.png", alt: "Sprint 3 image 2" }
+                    ]}
+                    goal="Implement progression systems, enemy difficulty scaling and a tutorial"
+                    desc={
+                        "The goal for sprint 3 was to implement the progression systems, enemy difficulty scaling and a tutorial. This goal was reached but more fine-tuning is still in progress."
+                    }
+                    listHeader={
+                        "In this sprint we managed to accomplish:"
+                    }
+                    list={[
+                        "Progression systems",
+                        "Enemy difficulty scaling",
+                        "Tutorial",
+                        "Some graphics and animations",
+                        "Sound effects",
+                        "Music",
+                        "UI improvements"
+                    ]}
+                />
             </div>
         </div>
     )
