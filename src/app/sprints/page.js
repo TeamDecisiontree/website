@@ -20,7 +20,6 @@ export default function Sprints() {
                     }
                     list={[
                         "Combat system",
-                        "Inventory",
                         "Stats",
                         "Skill tree with 3 implemented abilities",
                         "Some graphics"
@@ -42,6 +41,8 @@ export default function Sprints() {
                     list={[
                         "Abilities",
                         "Skill tree with 4 implemented abilities",
+                        "Inventory",
+                        "Item shop",
                         "Enemy AI",
                         "Some graphics and animations"
                     ]}

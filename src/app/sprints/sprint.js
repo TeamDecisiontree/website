@@ -5,7 +5,7 @@ export default function Sprint({ sprintNr, images, goal, desc, listHeader, list}
     return (
         <>
             <h2 className="md:text-4xl text-2xl pt-20">Sprint {sprintNr}</h2>
-            <div className="grid grid-rows-2 grid-cols-1 gap-4 md:gap-8 md:grid-rows-1 md:grid-cols-3 md:gap-2 mt-2 max-w-screen pr-6 pl-6">
+            <div className="grid grid-rows-2 grid-cols-1 gap-4 md:gap-8 md:grid-rows-1 md:grid-cols-3 mt-2 max-w-screen pr-6 pl-6">
                 <div className="grid-item flex flex-col items-center justify-center gap-2">
                     {
                         images.map((image, index) => (
